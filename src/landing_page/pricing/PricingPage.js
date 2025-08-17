@@ -4,13 +4,13 @@ import Brokerage from "./Brokerage";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-function AboutPage(){
+function PricingPage(){
     return (
         <>
-            <Navbar/>
             <Hero/>
             <Brokerage/>
-            <Footer/>
         </>
     );
 }
+
+export default PricingPage;

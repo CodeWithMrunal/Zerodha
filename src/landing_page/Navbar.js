@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg p-3 border-bottom">
+    <nav class="navbar navbar-expand-lg p-3 border-bottom bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             alt="logo"
             style={{ width: "30%" }}
           ></img>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,34 +27,34 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+                <Link class="nav-link" aria-current="page" to="/Signup">
                   SignUp
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/About">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/Product">
                   Product
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/Pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/Support">
                   Support
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/">
                   <i class="fa-solid fa-bars"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
