@@ -4,7 +4,7 @@ The main zerodha frontend ui is just a medium to use other application like kite
 
 On the left hand side of the kite application we can see our favorite stocks(or rather those stocks which the user is interested in or wants to invest into) which we want to monitor
 
-<img src="./public/media/ReadmeImages/image.png" alt="Alt text for the image" width="400"/>
+<img src="./frontend/public/media/ReadmeImages/image.png" alt="Alt text for the image" width="400"/>
 
 ## Dashboard:
 
@@ -22,3 +22,27 @@ so Margin Available=additional borrowing capacity, Total buying power=Margin Ava
 Here we can see the current value being equal to 31.43k , this means that it is the value of my portfolio, meaning the current cummulative market price of all the stocks which i have.
 
 And the investment means the amount which i have spent in order to purchase those stocks, so since my margin used is 0 , that implies that the money which i have used to purchase stocks is from my own cash. So with that the profit which i currently hold is 1.55k which is 5.20% gain from 29.88k.
+
+## Orders:
+
+This section tracks which stocks are purchased and which stocks are sold.
+
+## Holdings:
+
+This section consists of all the securities that i own.
+Securities: tradable financial assets, like stocks of companies like Reliance, tcs , hdfc etc..
+
+## Positions:
+
+This section consists of those stocks which we should sell on a threshold.
+For example we purchase a stock for 100RS and we keep a threshold of 90RS , what this means is that if the price of the stock goes down leading to loss and touches the treshold then we will sell it. So basically we keep all such stocks with thresholds in Positions section.
+
+## Funds:
+
+This section is consists of two functionalities : Add fund and withdraw.
+Add Fund: This is used to increase the margin to increase the purchasing power.
+Withdraw: This is used to withdraw amount from the margin.
+
+## Apps:
+
+This section includes all the other products which Zerodha offers, like varsity etc...
